@@ -1,0 +1,52 @@
+.top-nav {
+	list-style-type: none;
+	display: block;
+	background-color: #FFB4B0;
+	padding: 25px 20px;
+	text-align: left;
+	border: solid;
+	width: 850px;
+	margin: 20px;
+}
+
+.sidebluenav{
+	background-color: #4DD7FA;
+	border: solid;
+	width: 250px;
+	height: 400px;
+	padding: 20px;
+	margin-right: 70%;
+	text-align: center;
+	margin: 20px;
+
+
+}
+.yellownav{
+	background-color: #FEFAC0;
+	border: solid black;
+	width: 535px;
+	height: 400px;
+	padding: 20px;
+	margin: 5px;
+	color: #785616;
+	margin: 340px;
+}
+.songname{
+	margin: 20px;
+}
+.artistnames{
+	display: inline-block;
+	padding: 5px;
+	word-spacing: 10px;
+}
+.button{
+	border-radius: 20px;
+}
+.checkbox1 {
+margin: left;
+display: left;
+}
+.textboxallign {
+	display: inline-block;
+}
+
