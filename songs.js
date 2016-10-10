@@ -9,9 +9,8 @@ songs[songs.length] = "Another Brick in the Wall > by Pink Floyd on the album Th
 songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album Appetite for Destruction";
 songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
 
-songs.push("Turn Away > Beck on the album Morning Phase");
-songs.unshift("Scratching Circles> Jd McPherson on the album Signs & Signafiers")
-console.log(songs);
+songs.push(" Turn Away > Beck on the album Morning Phase");
+songs.unshift(" Scratching Circles> Jd McPherson on the album Signs & Signafiers")
 
 function allSongs(){
 	console.log("inside allsongs", songs)
@@ -20,15 +19,9 @@ function allSongs(){
 		.replace("*","")
 		.replace("!","")
 		.replace("(","")
+		.replace("@","")
 	
 	songDiv.innerHTML+=newSongs;
-
-
 	}
 }
-
 allSongs();
-
-	document.getElementById("yellowNav")
-
-
