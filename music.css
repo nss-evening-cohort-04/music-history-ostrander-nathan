@@ -1,52 +1,60 @@
 .top-nav {
-	list-style-type: none;
-	display: block;
+	display: flex;
 	background-color: #FFB4B0;
 	padding: 25px 20px;
-	text-align: left;
 	border: solid;
-	width: 850px;
+	/*width: 850px;*/
 	margin: 20px;
 }
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
-.sidebluenav{
+#sidebluenav{
+
 	background-color: #4DD7FA;
 	border: solid;
-	width: 250px;
-	height: 400px;
 	padding: 20px;
-	margin-right: 70%;
 	text-align: center;
 	margin: 20px;
-
-
 }
-.yellownav{
+#yellowNav{
 	background-color: #FEFAC0;
 	border: solid black;
-	width: 535px;
-	height: 400px;
 	padding: 20px;
-	margin: 5px;
+	margin: 20px;
 	color: #785616;
-	margin: 340px;
 }
 .songname{
 	margin: 20px;
 }
-.artistnames{
-	display: inline-block;
-	padding: 5px;
-	word-spacing: 10px;
-}
-.button{
-	border-radius: 20px;
-}
-.checkbox1 {
-margin: left;
-display: left;
-}
-.textboxallign {
-	display: inline-block;
+
+ul > li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px 15px 0 15px;
+  background-color: goldenrod;
+  padding: 5px;
 }
 
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 1.5em;
+}
+#album_input {
+	display: inherit;
+	flex-direction: column;
+	margin: 5%;
+}
