@@ -1,0 +1,34 @@
+{
+  "songs": [
+    {
+      "title": "Country Down",
+      "artist": "Beck",
+      "album": "Morning Phase"
+    },
+    {
+      "title": "Bored in the USA",
+      "artist": "Father John Misty",
+      "album": "I Love You Honeybear"
+    },
+    {
+      "title": "Wolf Like Me",
+      "artist": "TV on the Radio",
+      "album": "Return to Cookie Mountain"
+    },
+    {
+      "title": "Dream Girl",
+      "artist": "Cass McCombs",
+      "album": "Catacombs"
+    },
+    {
+      "title": "Wolf Like Me",
+      "artist": "TV on the Radio",
+      "album": "Return to Cookie Mountain"
+    },
+    {
+      "title": "Shelter from the Storm ",
+      "artist": "Bob Dylan",
+      "album": "Blood on the Tracks"
+    }
+  ]
+}

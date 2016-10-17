@@ -1,0 +1,34 @@
+{
+  "songs": [
+    {
+      "title": "Chocolate on my Tongue",
+      "artist": "The Wood Brothers",
+      "album": "Ways Not to Lose"
+    },
+    {
+      "title": "Would That Not Be Nice",
+      "artist": "Divine Fits",
+      "album": "A Thing Called the Divine Fits"
+    },
+    {
+      "title": "If I Can Dream ",
+      "artist": "Elvis",
+      "album": "If I Can Dream"
+    },
+    {
+      "title": "Tango Till They're Sore",
+      "artist": "Tom Waits",
+      "album": "Rain Dogs"
+    },
+    {
+      "title": "I Fought Piranhas",
+      "artist": "The White Stripes",
+      "album": "The White Stripes"
+    },
+    {
+      "title": "Far Away Eyes",
+      "artist": "The Rolling Stones",
+      "album": "Some Girls"
+    }
+  ]
+}

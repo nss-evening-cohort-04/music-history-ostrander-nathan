@@ -1,0 +1,60 @@
+.top-nav {
+	display: flex;
+	background-color: #FFB4B0;
+	padding: 25px 20px;
+	border: solid;
+	/*width: 850px;*/
+	margin: 20px;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#sidebluenav{
+
+	background-color: #4DD7FA;
+	border: solid;
+	padding: 20px;
+	text-align: center;
+	margin: 20px;
+}
+#yellowNav{
+	background-color: #FEFAC0;
+	border: solid black;
+	padding: 20px;
+	margin: 20px;
+	color: #785616;
+}
+.songname{
+	margin: 20px;
+}
+
+ul > li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px 15px 0 15px;
+  background-color: goldenrod;
+  padding: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 1.5em;
+}
+#album_input {
+	display: inherit;
+	flex-direction: column;
+	margin: 5%;
+}
