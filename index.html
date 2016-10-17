@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -9,10 +8,10 @@
 </head>
 
 <body>
- <ul class="top-nav">
-  <li><a href="#" id="link-home">Home</a></li>
-  <li><a href="#" id="link-list">List Music</a></li>
-  <li><a href="#" id="link-add">Add Music</a></li>
+  <ul class="top-nav">
+    <li><a href="#" id="link-home">Home</a></li>
+    <li><a href="#" id="link-list">List Music</a></li>
+    <li><a href="#" id="link-add">Add Music</a></li>
 
     <section id="home-view">
       Home
@@ -25,10 +24,9 @@
     <section class="hidden" id="add-view">
       Add Music
     </section>
-</ul>
-  </div>
+  </ul>
   <div class="flex-container">
-    <a class="hidden" id="songNameTitle">Song Name:</a>  
+    <a class="hidden" id="songNameTitle">Song Name:</a>
     <input type="text" id="album_input3" class="hidden">
     <ul class="visiable" id="sidebluenav">
       <a>Song length:</a>
@@ -37,8 +35,8 @@
       </div>
       <br>
       <div>
-        <a>Artist:</a>  
-      <select id="artist_drop" class="visiable">
+        <a>Artist:</a>
+        <select id="artist_drop" class="visiable">
           <option value="Beck">Beck</option>
           <option value="Sturgill Simpson">Sturgill Simpson</option>
           <option value="Father John Misty">Father John Misty</option>
@@ -59,7 +57,6 @@
       </div>
       <br>
       <br>
-
       <a>Genre:</a>
       <br>
       <div class="checkbox1">
@@ -77,37 +74,25 @@
         <button type="filter">Filter</button>
       </div>
     </ul>
+    <!-- Add music page -->
     <div class="hidden" id="album_input">
-     <label for="exampleInputEmail1">Song Name: </label>
-        <input type="text" id="SongNameInput">
+      <label for="exampleInputEmail1">Song Name: </label>
+      <input type="text" id="SongNameInput">
       <label for="exampleInputEmail1">Artist: </label>
-        <input type="text" id="ArtistInput">
+      <input type="text" id="ArtistInput">
       <label for="exampleInputEmail1">Album: </label>
-        <input type="text" id="AlbumTextInput">
-        <br>
+      <input type="text" id="AlbumTextInput">
+      <br>
       <button id="add_button" class="btn btn-default" type="submit">Add</button>
     </div>
-
-  <div class="visiable" id="yellowNav">
-    <h2 class="songname">Country Down</h2>
-    <div class="artistnames">Beck | Morning Phase | Rock</div>
-
-    <h2 class="songname">North Side Girl</h2>
-    <div class="artistnames">Jd McPherson | Signs & Signafiers | Rock</div>
-
-
-    <h2 class="songname">Wolf Like Me</h2>
-    <div class="artistnames">TV on the Radio | Return to Cookie Mountatin | Rock</div>
-
-    <h2 class="songname">Life of Sin</h2>
-    <div class="artistnames">Sturgill Simpson | Metamodern Sounds in Country Music | Country</div>
-
+    <div id="yellowNav">
+    </div>
   </div>
-  </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>  
-<script type="text/javascript" src="home.js"></script>
-<script type="text/javascript" src="list.js"></script>
-<script type="text/javascript" src="add.js"></script>
-<script type="text/javascript" src="songs.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="home.js"></script>
+  <script type="text/javascript" src="list.js"></script>
+  <script type="text/javascript" src="add.js"></script>
+  <script type="text/javascript" src="songs.js"></script>
 </body>
+
 </html>
